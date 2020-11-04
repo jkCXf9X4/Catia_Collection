@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <PackageId>Rename_Instance</PackageId>
+    <Version>0.0.1</Version>
+    <Authors>jkCXf9X4</Authors>
+    <Company>ATN</Company>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+ 
+  <ItemGroup>
+
+   <PackageReference Include="ATN.CatNet" Version="0.0.1" />
+
+  </ItemGroup>
+
+</Project>

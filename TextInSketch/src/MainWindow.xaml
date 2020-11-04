@@ -1,0 +1,16 @@
+﻿<Window x:Class="InsertText.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InsertText"
+        mc:Ignorable="d"
+        Title="TextToClipboard" Height="192.198" Width="522.998" Loaded="Loaded_2">
+    <Grid>
+        <TextBox x:Name="textField" HorizontalAlignment="Left" Height="42" Margin="30,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="443" FontSize="22" KeyDown="textField_KeyDown"/>
+        <Button Content="Copy to clipboard" HorizontalAlignment="Left" Height="48" Margin="30,90,0,0" VerticalAlignment="Top" Width="443" Click="Button_Click"/>
+        <TextBox x:Name="sizeTextbox" HorizontalAlignment="Left" Height="23" Margin="353,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="6"/>
+        <TextBlock HorizontalAlignment="Left" Margin="299,64,0,0" TextWrapping="Wrap" Text="Size" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
